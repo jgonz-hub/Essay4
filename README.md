@@ -3,7 +3,7 @@
 ### Authors: Alberto Gomez-Han, Jon González, Alexander Reynolds, Ryan Tullis 
 
 #### Introduction
-Godot supports extensibility via its plugin system which, like the core project, includes various modules developed by the community. While The Godot Project maintains its own
+Godot supports extensibility via its plugin system which, a project wide system that has its own database, web services, and which is a drawing feature of Godot. While The Godot Project maintains its own
 official Asset Library, the editor supports the use of any plugin that conforms to their specifications and can be installed by users manually. One powerful feature of Godot's
 plugin system is that plugins do not need to be compiled or written in a standalone programming language, and can be built using the editor, written in GDScript, Godot's
 proprietary scripting language. In fact, the Editor allows you to create plugins much like it supports the creation of scenes and other assets, featuring its own menu
@@ -11,7 +11,7 @@ for doing so. This robust support for plugins demonstrates the project's commitm
 analysis, we will start with discussion of what specific enhancements are supported by the plugin system.
 
 #### Asset Library
-Godot provides an Asset Library that the community may contribute to. The barrier of entry is fairly low, requiring only registration on their website in order to begin contributing plugins to the library. Once a plugin is submitted to the Asset Library, Godot maintainers review the plugin before formally making it available to other users for download. The Asset Library features plugins that are pending review, leaving them open for comments from the wider community. The Asset Library is not only accessible via a website, but direct downloading of plugins is available via the Editor, providing a more streamlined installation process as opposed to manually inserting unzipped files into the '/addon' directory.
+Godot provides an Asset Library that the community may contribute to. The barrier of entry is fairly low, requiring only registration on their website in order to begin contributing plugins to the library. Once a plugin is submitted to the Asset Library, Godot maintainers review the plugin before formally making it available to other users for download. The Asset Library features plugins that are pending review, leaving them open for comments from the wider community. The Asset Library is not only accessible via a website, but direct downloading of plugins is available via the Editor, providing a more streamlined installation process as opposed to manually inserting unzipped files into the '/addon' directory. The plugin system gives the community the ability to create specialized UI components for unique or common problems. Godot puts in the effort to host the Asset Library because by connecting all the users and allowing them to share plugins, Godot ensures that people are constantly adding new features to Godot, even if just trhough the plugin store. This allows for many more spefic variations of Godot for specific kinds of projects and gives Godot a level of configurability that Godot's competitors don't have.
 
 #### Plugin Nodes
 The Godot Editor supports the creation of entirely new UI menus and features by leveraging its node system, which is also utilized to render its games. Indeed, the plugin system makes extensive reuse of already-implemented features, exposing them for the custom use of plugin developers.
