@@ -1,6 +1,6 @@
 # Essay 4 - Team 7
-## Authors: Alberto Gomez-Han, Jon González, Alexander Reynolds, Ryan Tullis 
-### Godot's Plugin System
+## Godot's Plugin System
+### Authors: Alberto Gomez-Han, Jon González, Alexander Reynolds, Ryan Tullis 
 
 #### Introduction
 Godot supports extensibility via its plugin system which, like the core project, includes various modules developed by the community. While The Godot Project maintains its own
