@@ -9,3 +9,6 @@ plugin system is that plugins do not need to be compiled or written in a standal
 proprietary scripting language. In fact, the Editor allows you to create plugins much like it supports the creation of scenes and other assets, featuring its own menu
 for doing so. This robust support for plugins demonstrates the project's commitment to ensuring high configurability by end-users, a subject discussed in our previous essay. For this deeper
 analysis, we will start with discussion what specific enhancements are supported by the plugin system.
+
+#### UI Plugins
+The Godot Editor supports the creation of entirely new UI menus and features by leveraging its node system. 
